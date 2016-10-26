@@ -1,0 +1,15 @@
+<html>
+	<head>
+	</head>
+	<body>
+	<?php include 'ViewUserPosts.php';?>
+		<form method = "post" action = "ViewUserPosts.php">
+			<select name = "users">
+			<?php
+				menu();
+			?>
+			</select>
+			<input type = "submit" value = "View Posts"/>
+		</form>
+	</body>
+</html>

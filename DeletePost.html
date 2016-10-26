@@ -1,0 +1,16 @@
+<html>
+	<head>
+	</head>
+	<body>
+	<?php include 'DeletePost.php';?>
+	<form action = "DeletePost.php" method = "post" name = "posts">
+		<table border = "1">
+			<tr><td><b>User</b></td><td><b>Post</b></td><td><b>Delete?</b></td></tr>
+			<?php
+				listing();
+			?>
+		</table>
+		<input name = "submit" type = "submit">
+	</form>
+	</body>
+</html>

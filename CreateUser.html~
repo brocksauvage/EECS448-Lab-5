@@ -1,0 +1,12 @@
+<html>
+	<head>
+	</head>
+	<body>
+		<form action = "CreateUser.php" method = "post">
+			Username: <br>
+			<input type = "text">
+			<br><br>
+			<input type = "submit" value = "Submit">
+		</form>
+	</body>
+</html>
